@@ -63,3 +63,17 @@ img {
     padding-bottom: 20px;
     margin: 0;
 }
+
+.form {
+    text-align: center;
+}
+
+#form-search {
+    width: 450px;
+    line-height: 32px;
+    padding: 20px 10px;
+}
+
+.form #form-search {
+    padding: 0 8px;
+}
