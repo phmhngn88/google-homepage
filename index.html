@@ -6,22 +6,40 @@
 </head>
 
 <body>
-    <div id="topnav">
-        <ul>
-            <li><a href="https://www.google.com/intl/vi/gmail/about/" target="_blank">Gmail</a></li>
-            <li><a href="https://www.google.com.vn/imghp?hl=vi&tab=wi&ogbl" target="_blank">Hình ảnh</a></li>
-            <li style="float: right"><a href="https://accounts.google.com/signin/" target="_blank">Đăng nhập</a></li>
-        </ul>
+    <header">
+        <nav>
+            <ul id="nav_bar">
+                <li class="nav-links" id="gmail"><a href="https://www.google.com/intl/vi/gmail/about/" target="_blank">Gmail</a></li>
+                <li class="nav-links"><a href="https://www.google.com.vn/imghp?hl=vi&tab=wi&ogbl" target="_blank">Hình ảnh</a></li>
+                <li class="nav-links" id="sign_in"><a href="https://accounts.google.com/signin/" target="_blank">Đăng nhập</a></li>
+            </ul>
+        </nav>
+    <header>
+    <div id="img-div"></div>
+        <p id="google_logo">
+            <img
+            id="image"
+                src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"
+                alf="Google's logo"
+            >
+        </p>
+    </div>
+    
+    <div class="form">
+        <form>
+            <label for="form-search"></label>
+            <input type="text" id="form-search"><br>
+            
+        </form>
     </div>
 
-    <img
-        src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"
-        alf="Google's logo"
-        id="image"
-    >
-    <form>
-        <input type="text"><br>
-        <input type="submit" value="Tìm với Google">
-        <input type="submit" value="Xem trang đầu tiên tìm được">
-    </form>
+    <div class="buttons">
+        <input type="submit" value="Tìm với Google" id="google_search">
+        <input type="submit" value="Xem trang đầu tiên tìm được" id="im_feeling_lucky">
+    </div>
+    <div id="country">
+        <p>
+            Việt Nam
+        </p>
+    </div>
 </body>
