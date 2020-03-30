@@ -1,31 +1,33 @@
-ul {
-    position: fixed;
+#topnav {
     top: 0;
     width: 100%;
-    float: right;
     list-style-type: none;
+    padding: 1px;
+    position: fixed;
+    margin-left: 1px;
 }
 
-li {
+#topnav li {
     float: right;
 }
 
 a {
     display: block;
-    padding: 8px;
+    padding: 20px;
 }
 
-li a {
+#topnav li a {
     display: block;
     text-decoration: none;
     color:gray;
 }
 
-li a:hover {
+#topnav li a:hover {
     text-decoration: underline;
 }
 
 img{
-    padding: 200px;
     display: block;
+    padding-top: 109px;
+    margin: 0 auto;
 }
